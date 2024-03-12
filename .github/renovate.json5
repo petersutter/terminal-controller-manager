@@ -66,7 +66,9 @@
     },
     {
       groupName: "github-actions",
-      matchManagers: ["github-actions"]
+      matchManagers: ["github-actions"],
+      separateMajorMinor: false,
+      separateMinorPatch: false
     }
   ]
 }
