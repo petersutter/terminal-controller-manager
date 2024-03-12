@@ -58,7 +58,7 @@
       separateMinorPatch: true
     },
     {
-      groupName: "github-actions"
+      groupName: "github-actions",
       matchManagers: ["github-actions"]
     }
   ]
