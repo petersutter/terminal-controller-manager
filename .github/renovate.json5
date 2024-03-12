@@ -53,6 +53,7 @@
     },
     {
       groupName: "dependencies",
+      matchDatasources: ["go"],
       matchPackageNames: [
         "github.com/gardener/gardener",
         "github.com/go-logr/logr",
@@ -60,7 +61,6 @@
         "github.com/onsi/gomega",
         "golang.org/x/oauth2"
       ],
-      matchDataSources: ["go"],
       separateMajorMinor: true,
       separateMinorPatch: true
     },
